@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A03F3C7260B8C0900FB2B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F3C6260B8C0900FB2B3E /* AppDelegate.swift */; };
+		9A03F3C9260B8C0900FB2B3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F3C8260B8C0900FB2B3E /* SceneDelegate.swift */; };
+		9A03F3CB260B8C0900FB2B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F3CA260B8C0900FB2B3E /* ViewController.swift */; };
+		9A03F3CE260B8C0900FB2B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A03F3CC260B8C0900FB2B3E /* Main.storyboard */; };
+		9A03F3D0260B8C0D00FB2B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A03F3CF260B8C0D00FB2B3E /* Assets.xcassets */; };
+		9A03F3D3260B8C0D00FB2B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A03F3D1260B8C0D00FB2B3E /* LaunchScreen.storyboard */; };
+		9A03F3DE260B8C0D00FB2B3E /* RemoteControlForPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F3DD260B8C0D00FB2B3E /* RemoteControlForPhoneTests.swift */; };
+		9A03F3E9260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F3E8260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.swift */; };
+		9A03F472260B928400FB2B3E /* UDPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A03F471260B928400FB2B3E /* UDPController.swift */; };
+		C5FD23090303C02DB4F1D837 /* Pods_RemoteControlForPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2390F2B3C80BE5379982B55E /* Pods_RemoteControlForPhone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A03F3DA260B8C0D00FB2B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A03F3BB260B8C0900FB2B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A03F3C2260B8C0900FB2B3E;
+			remoteInfo = RemoteControlForPhone;
+		};
+		9A03F3E5260B8C0D00FB2B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A03F3BB260B8C0900FB2B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A03F3C2260B8C0900FB2B3E;
+			remoteInfo = RemoteControlForPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FD7F4407CA6B1BF22C6115 /* Pods-RemoteControlForPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteControlForPhone.release.xcconfig"; path = "Target Support Files/Pods-RemoteControlForPhone/Pods-RemoteControlForPhone.release.xcconfig"; sourceTree = "<group>"; };
+		2390F2B3C80BE5379982B55E /* Pods_RemoteControlForPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteControlForPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03F3C3260B8C0900FB2B3E /* RemoteControlForPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteControlForPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03F3C6260B8C0900FB2B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A03F3C8260B8C0900FB2B3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A03F3CA260B8C0900FB2B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A03F3CD260B8C0900FB2B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A03F3CF260B8C0D00FB2B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A03F3D2260B8C0D00FB2B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A03F3D4260B8C0D00FB2B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A03F3D9260B8C0D00FB2B3E /* RemoteControlForPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControlForPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03F3DD260B8C0D00FB2B3E /* RemoteControlForPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlForPhoneTests.swift; sourceTree = "<group>"; };
+		9A03F3DF260B8C0D00FB2B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A03F3E4260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteControlForPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A03F3E8260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlForPhoneUITests.swift; sourceTree = "<group>"; };
+		9A03F3EA260B8C0D00FB2B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A03F471260B928400FB2B3E /* UDPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPController.swift; sourceTree = "<group>"; };
+		ED22CA4F5F80EF57B6B792FB /* Pods-RemoteControlForPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteControlForPhone.debug.xcconfig"; path = "Target Support Files/Pods-RemoteControlForPhone/Pods-RemoteControlForPhone.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A03F3C0260B8C0900FB2B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FD23090303C02DB4F1D837 /* Pods_RemoteControlForPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3D6260B8C0D00FB2B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3E1260B8C0D00FB2B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0266A219A375F3EFDC017206 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED22CA4F5F80EF57B6B792FB /* Pods-RemoteControlForPhone.debug.xcconfig */,
+				10FD7F4407CA6B1BF22C6115 /* Pods-RemoteControlForPhone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56FC028D7E9D7DD28951A3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2390F2B3C80BE5379982B55E /* Pods_RemoteControlForPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A03F3BA260B8C0900FB2B3E = {
+			isa = PBXGroup;
+			children = (
+				9A03F3C5260B8C0900FB2B3E /* RemoteControlForPhone */,
+				9A03F3DC260B8C0D00FB2B3E /* RemoteControlForPhoneTests */,
+				9A03F3E7260B8C0D00FB2B3E /* RemoteControlForPhoneUITests */,
+				9A03F3C4260B8C0900FB2B3E /* Products */,
+				0266A219A375F3EFDC017206 /* Pods */,
+				56FC028D7E9D7DD28951A3A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A03F3C4260B8C0900FB2B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A03F3C3260B8C0900FB2B3E /* RemoteControlForPhone.app */,
+				9A03F3D9260B8C0D00FB2B3E /* RemoteControlForPhoneTests.xctest */,
+				9A03F3E4260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A03F3C5260B8C0900FB2B3E /* RemoteControlForPhone */ = {
+			isa = PBXGroup;
+			children = (
+				9A03F3C6260B8C0900FB2B3E /* AppDelegate.swift */,
+				9A03F3C8260B8C0900FB2B3E /* SceneDelegate.swift */,
+				9A03F3CA260B8C0900FB2B3E /* ViewController.swift */,
+				9A03F471260B928400FB2B3E /* UDPController.swift */,
+				9A03F3CC260B8C0900FB2B3E /* Main.storyboard */,
+				9A03F3CF260B8C0D00FB2B3E /* Assets.xcassets */,
+				9A03F3D1260B8C0D00FB2B3E /* LaunchScreen.storyboard */,
+				9A03F3D4260B8C0D00FB2B3E /* Info.plist */,
+			);
+			path = RemoteControlForPhone;
+			sourceTree = "<group>";
+		};
+		9A03F3DC260B8C0D00FB2B3E /* RemoteControlForPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A03F3DD260B8C0D00FB2B3E /* RemoteControlForPhoneTests.swift */,
+				9A03F3DF260B8C0D00FB2B3E /* Info.plist */,
+			);
+			path = RemoteControlForPhoneTests;
+			sourceTree = "<group>";
+		};
+		9A03F3E7260B8C0D00FB2B3E /* RemoteControlForPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A03F3E8260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.swift */,
+				9A03F3EA260B8C0D00FB2B3E /* Info.plist */,
+			);
+			path = RemoteControlForPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A03F3C2260B8C0900FB2B3E /* RemoteControlForPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A03F3ED260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhone" */;
+			buildPhases = (
+				4A33DF525EFAC444F30A7CF2 /* [CP] Check Pods Manifest.lock */,
+				9A03F3BF260B8C0900FB2B3E /* Sources */,
+				9A03F3C0260B8C0900FB2B3E /* Frameworks */,
+				9A03F3C1260B8C0900FB2B3E /* Resources */,
+				91DBDA2E5A2E5A0AD03583A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteControlForPhone;
+			productName = RemoteControlForPhone;
+			productReference = 9A03F3C3260B8C0900FB2B3E /* RemoteControlForPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A03F3D8260B8C0D00FB2B3E /* RemoteControlForPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A03F3F0260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhoneTests" */;
+			buildPhases = (
+				9A03F3D5260B8C0D00FB2B3E /* Sources */,
+				9A03F3D6260B8C0D00FB2B3E /* Frameworks */,
+				9A03F3D7260B8C0D00FB2B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A03F3DB260B8C0D00FB2B3E /* PBXTargetDependency */,
+			);
+			name = RemoteControlForPhoneTests;
+			productName = RemoteControlForPhoneTests;
+			productReference = 9A03F3D9260B8C0D00FB2B3E /* RemoteControlForPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A03F3E3260B8C0D00FB2B3E /* RemoteControlForPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A03F3F3260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhoneUITests" */;
+			buildPhases = (
+				9A03F3E0260B8C0D00FB2B3E /* Sources */,
+				9A03F3E1260B8C0D00FB2B3E /* Frameworks */,
+				9A03F3E2260B8C0D00FB2B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A03F3E6260B8C0D00FB2B3E /* PBXTargetDependency */,
+			);
+			name = RemoteControlForPhoneUITests;
+			productName = RemoteControlForPhoneUITests;
+			productReference = 9A03F3E4260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A03F3BB260B8C0900FB2B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9A03F3C2260B8C0900FB2B3E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9A03F3D8260B8C0D00FB2B3E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9A03F3C2260B8C0900FB2B3E;
+					};
+					9A03F3E3260B8C0D00FB2B3E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9A03F3C2260B8C0900FB2B3E;
+					};
+				};
+			};
+			buildConfigurationList = 9A03F3BE260B8C0900FB2B3E /* Build configuration list for PBXProject "RemoteControlForPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A03F3BA260B8C0900FB2B3E;
+			productRefGroup = 9A03F3C4260B8C0900FB2B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A03F3C2260B8C0900FB2B3E /* RemoteControlForPhone */,
+				9A03F3D8260B8C0D00FB2B3E /* RemoteControlForPhoneTests */,
+				9A03F3E3260B8C0D00FB2B3E /* RemoteControlForPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A03F3C1260B8C0900FB2B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A03F3D3260B8C0D00FB2B3E /* LaunchScreen.storyboard in Resources */,
+				9A03F3D0260B8C0D00FB2B3E /* Assets.xcassets in Resources */,
+				9A03F3CE260B8C0900FB2B3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3D7260B8C0D00FB2B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3E2260B8C0D00FB2B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A33DF525EFAC444F30A7CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteControlForPhone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91DBDA2E5A2E5A0AD03583A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteControlForPhone/Pods-RemoteControlForPhone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemoteControlForPhone/Pods-RemoteControlForPhone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemoteControlForPhone/Pods-RemoteControlForPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A03F3BF260B8C0900FB2B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A03F3CB260B8C0900FB2B3E /* ViewController.swift in Sources */,
+				9A03F3C7260B8C0900FB2B3E /* AppDelegate.swift in Sources */,
+				9A03F3C9260B8C0900FB2B3E /* SceneDelegate.swift in Sources */,
+				9A03F472260B928400FB2B3E /* UDPController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3D5260B8C0D00FB2B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A03F3DE260B8C0D00FB2B3E /* RemoteControlForPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A03F3E0260B8C0D00FB2B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A03F3E9260B8C0D00FB2B3E /* RemoteControlForPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A03F3DB260B8C0D00FB2B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A03F3C2260B8C0900FB2B3E /* RemoteControlForPhone */;
+			targetProxy = 9A03F3DA260B8C0D00FB2B3E /* PBXContainerItemProxy */;
+		};
+		9A03F3E6260B8C0D00FB2B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A03F3C2260B8C0900FB2B3E /* RemoteControlForPhone */;
+			targetProxy = 9A03F3E5260B8C0D00FB2B3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A03F3CC260B8C0900FB2B3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A03F3CD260B8C0900FB2B3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A03F3D1260B8C0D00FB2B3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A03F3D2260B8C0D00FB2B3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A03F3EB260B8C0D00FB2B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A03F3EC260B8C0D00FB2B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A03F3EE260B8C0D00FB2B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED22CA4F5F80EF57B6B792FB /* Pods-RemoteControlForPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A03F3EF260B8C0D00FB2B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FD7F4407CA6B1BF22C6115 /* Pods-RemoteControlForPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A03F3F1260B8C0D00FB2B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteControlForPhone.app/RemoteControlForPhone";
+			};
+			name = Debug;
+		};
+		9A03F3F2260B8C0D00FB2B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteControlForPhone.app/RemoteControlForPhone";
+			};
+			name = Release;
+		};
+		9A03F3F4260B8C0D00FB2B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteControlForPhone;
+			};
+			name = Debug;
+		};
+		9A03F3F5260B8C0D00FB2B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3BJ7G2PUN;
+				INFOPLIST_FILE = RemoteControlForPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karim.RemoteControlForPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteControlForPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A03F3BE260B8C0900FB2B3E /* Build configuration list for PBXProject "RemoteControlForPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03F3EB260B8C0D00FB2B3E /* Debug */,
+				9A03F3EC260B8C0D00FB2B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A03F3ED260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03F3EE260B8C0D00FB2B3E /* Debug */,
+				9A03F3EF260B8C0D00FB2B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A03F3F0260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03F3F1260B8C0D00FB2B3E /* Debug */,
+				9A03F3F2260B8C0D00FB2B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A03F3F3260B8C0D00FB2B3E /* Build configuration list for PBXNativeTarget "RemoteControlForPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A03F3F4260B8C0D00FB2B3E /* Debug */,
+				9A03F3F5260B8C0D00FB2B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A03F3BB260B8C0900FB2B3E /* Project object */;
+}
